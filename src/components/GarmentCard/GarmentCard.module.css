@@ -1,0 +1,43 @@
+.garmentCard {
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     margin: 8px;
+     width: 100%;
+     text-align: center;
+     position: relative;
+ }
+
+ .garmentImage {
+    display: block;
+     width: 100%;
+     height: auto;
+     border-radius: inherit;
+ }
+
+    .garmentLaundryStatus {
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+        z-index: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+
+    .statusIconImg {
+        width: 17px;
+        height: 17px;
+    }
+
+    .worn {
+        background-color: #d9cfb8;
+    }
+
+    .laundry {
+        background-color: #afcbc5;
+    }
