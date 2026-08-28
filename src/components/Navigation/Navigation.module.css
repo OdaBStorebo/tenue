@@ -1,0 +1,41 @@
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+@media(min-width: 768px) {
+    .nav {
+        position: relative;
+        bottom: auto;
+
+        height: 100vh;
+        width: 120px;
+        flex-shrink: 0;
+
+    }
+
+    .navList {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        gap: 20px;
+        padding: 20px;
+        }
+}

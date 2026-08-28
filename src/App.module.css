@@ -1,0 +1,17 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  /* Desktop: Side-by-Side snapping */
+@media (min-width: 768px){
+  .appContainer {
+    flex-direction: row; 
+  }
+
+.mainContent {
+    flex-grow: 1;
+    padding: 16px;
+  }
+}
