@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Garderobe</title>
+  <path d="M12 10.65V10c0-.8.45-1.2 1.25-1.75A2.55 2.55 0 1 0 9.45 6" stroke="#1D1D1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m12 10.65-8.7 6.5a1.25 1.25 0 0 0 .75 2.25h15.9a1.25 1.25 0 0 0 .75-2.25l-8.7-6.5Z" stroke="#1D1D1B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -4,14 +4,16 @@
     min-height: 100vh;
   }
 
+  .mainContent {
+    flex-grow: 1;
+    padding-bottom: 70px;
+    }  
+
   /* Desktop: Side-by-Side snapping */
 @media (min-width: 768px){
   .appContainer {
     flex-direction: row; 
   }
 
-.mainContent {
-    flex-grow: 1;
-    padding: 16px;
-  }
+
 }
